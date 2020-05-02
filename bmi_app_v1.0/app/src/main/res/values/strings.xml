@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">bmi_app_v.1.0</string>
+    <string name="enter_weight_in_kgs">enter weight( in kgs).</string>
+    <string name="bmi">BMI</string>
+    <string name="todo">TODO</string>
+    <string name="bmi_chart">BMI CHART:</string>
+    <string name="calculate">Calculate</string>
+    <string name="enter_the_height_in_m">Enter the height (in M.)</string>
+    <string name="enter_weight_in_kg">Enter weight in kg</string>
+</resources>
