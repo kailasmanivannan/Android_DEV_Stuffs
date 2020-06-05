@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Three_dots</string>
+    <string name="logo">logo</string>
+    <string name="player_1">PLAYER 1:</string>
+    <string name="button">Button</string>
+    <string name="player_2">PLAYER 2:</string>
+    <string name="start">START</string>
+    <string name="exit">exit</string>
+    <string name="y">y</string>
+    <string name="r">r</string>
+    <string name="x">PLAYER ONE HAS TO PLAY FIRST</string>
+    <string name="yellow">yellow intent</string>
+    <string name="red">red intent</string>
+    <string name="nowin">nowin intent</string>
+    <string name="player_2_has_got_some_brains_there">PLAYER 2 HAS GOT SOME BRAINS THERE!</string>
+    <string name="player_1_has_got_some_brains_there">PLAYER 1 HAS GOT SOME BRAINS THERE!</string>
+    <string name="playagain">playagain</string>
+    <string name="no_one_wins_sathya_sodanai">NO ONE WINS</string>
+</resources>
