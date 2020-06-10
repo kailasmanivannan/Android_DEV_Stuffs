@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "494595562232",
+    "firebase_url": "https://flamescalculator-b9c28.firebaseio.com",
+    "project_id": "flamescalculator-b9c28",
+    "storage_bucket": "flamescalculator-b9c28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494595562232:android:38bb7663969dfb494fb90d",
+        "android_client_info": {
+          "package_name": "com.example.flamescalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494595562232-r2p1fojnnp3ha5q4235tkf88h9snodlb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flamescalculator",
+            "certificate_hash": "50d48cfeea1fe75b6498220a8bac23e7d2eb95ba"
+          }
+        },
+        {
+          "client_id": "494595562232-fvka883h46kdksf9feflh2v8ae27cuac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAklKO92ziJeSVRHLEZ_V4aAuXFCA1fXas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494595562232-fvka883h46kdksf9feflh2v8ae27cuac.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

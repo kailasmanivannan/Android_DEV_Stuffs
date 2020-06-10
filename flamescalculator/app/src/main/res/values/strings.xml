@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">flamescalculator</string>
+    <string name="firstname">Enter your name</string>
+    <string name="crushname">Enter your crush name</string>
+    <string name="startbutton">Calculate</string>
+    <string name="wait">PLEASE WAIT</string>
+    <string name="todo">TODO</string>
+    <string name="f">Friendship macha</string>
+    <string name="l">you guys make a good pair!</string>
+    <string name="check">check another</string>
+    <string name="exit">Exit</string>
+    <string name="a">Serious Affection WOW!</string>
+    <string name="m">Congratulations For Your Marriage :) </string>
+    <string name="e">Better be away!!!</string>
+    <string name="s">BRO and SISTA for life</string>
+
+</resources>
