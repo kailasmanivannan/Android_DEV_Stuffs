@@ -28,15 +28,15 @@ public class MainActivity extends AppCompatActivity {
         ans.setText(res_string);
         SystemClock.sleep(1000);
         if (res < 18.5) {
-            Toast.makeText(this, "YOU ARE UNDERWEIGHT", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "YOU ARE UNDERWEIGHT", Toast.LENGTH_SHORT).show();
         } else if (res >= 18.5 && res <= 24.9) {
-            Toast.makeText(this, "YOU ARE NORMAL", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "YOU ARE NORMAL", Toast.LENGTH_SHORT).show();
         } else if (res >= 25 && res <= 29.9) {
-            Toast.makeText(this, "YOU ARE OVERWEIGHT", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "YOU ARE OVERWEIGHT", Toast.LENGTH_SHORT).show();
         } else if (res >= 30 && res <= 34.9) {
-            Toast.makeText(this, "YOU ARE OBESE(TOO MUCH WEIGHT)", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "YOU ARE OBESE(TOO MUCH WEIGHT)", Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(this, "YOU ARE HIGHLY OBESE (TOOOO MUCH)", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "YOU ARE HIGHLY OBESE (TOOOO MUCH)", Toast.LENGTH_SHORT).show();
         }
     }
     @Override
