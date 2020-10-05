@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-public class gameactivity extends AppCompatActivity {
+public class Gameactivity extends AppCompatActivity {
     MediaPlayer bs;
     int[] gamestate = {2,2,2,2,2,2,2,2,2};
     int[][] winingpositions = {{0,1,2},{3,4,5},{6,7,8},{0,3,6},{1,4,7},{2,5,8},{0,4,8},{2,4,6}};
