@@ -91,7 +91,9 @@ public class MainActivity extends AppCompatActivity {
 }
  class checkconnect extends AppCompatActivity{
     public static Boolean isConnected = false, isWiFi = false, isMobile = false, result = false;
-    static public boolean check(MainActivity main) {
+     
+    @NotNull
+    public static boolean check(MainActivity main) {
         ConnectivityManager cm = (ConnectivityManager) main.getSystemService(Context.CONNECTIVITY_SERVICE);
         assert cm != null;
         NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
@@ -120,7 +122,9 @@ public class MainActivity extends AppCompatActivity {
         }
         return result;
     }
-    static public boolean isConnectedToThisServer(String host) {
+     
+    @NotNull
+    public static boolean isConnectedToThisServer(String host) {
         Runtime runtime = Runtime.getRuntime();
         try {
             Process ipProcess = runtime.exec("/system/bin/ping -c 1 " + host);
@@ -133,7 +137,8 @@ public class MainActivity extends AppCompatActivity {
         }
         return false;
     }
-
+     
+    @NotNull
     public static boolean stringcheck(String str){
         return ((str != null)
                 && (!str.equals(""))
